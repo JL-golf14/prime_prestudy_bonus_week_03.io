@@ -3,4 +3,4 @@ function bonus(){console.log("is trying to get the bonus")};
 function work(){console.log("does this work")};
 
 
-myname(bonus(work()));
+work(bonus(myname()));
